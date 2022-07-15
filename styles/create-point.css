@@ -1,0 +1,101 @@
+#page-create-point {
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 90%;
+}
+
+#page-create-point header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+#page-create-point a {
+    align-items: center;
+    color: var(--title-color);
+    display: flex;
+    font-weight: bold;
+}
+
+#page-create-point span {
+    background-image: url('../assets/arrow-left.svg');
+    display: flex;
+    height: 20px;
+    margin-right: 1rem;
+    width: 20px;
+}
+
+form {
+    background: white;
+    border-radius: 0.5rem;
+    margin: 5rem auto;
+    max-width: 730px;
+    padding: 4rem;
+}
+
+form h1 {
+    font-size: 2rem;
+}
+
+form fieldset {
+    border: 0;
+    margin-top: 4rem;
+}
+
+form legend {
+    margin-bottom: 40px;
+}
+
+form legend h2 {
+    font-size: 1.5rem;
+}
+
+form .field {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+form .fieldgroup {
+    display: flex;
+}
+
+form input, form select {
+    appearance: none;
+    background: #f0f0f5;
+    border: 0;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+form label {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.esquerda {
+    margin-left: 1.5rem;
+}
+
+form button {
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 56px;
+    margin-top: 2rem;
+    transition: 0.3s;
+    width: 260px;
+}
+
+form button:hover {
+    background-color: #2fb86e;
+}
+
