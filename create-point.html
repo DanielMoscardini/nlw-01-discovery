@@ -46,7 +46,7 @@
                     </div>
 
                     <div class="field esquerda">
-                        <label for="address2">Número</label>
+                        <label for="address2">Número/Complemento</label>
                         <input type="number" name="address2">
                     </div>
                 </div>
@@ -57,6 +57,8 @@
                         <select name="uf">
                             <option value="">Selecione o Estado</option>
                         </select>
+
+                        <input type="hidden" name="state">
                     </div>
                     
                     <div class="field esquerda">
@@ -71,6 +73,8 @@
             <button type="submit">Cadastrar ponto de coleta</button>
         </form>
     </div>
+
+    <script src="scripts/create-point.js"></script>
 </body>
 
 </html>
