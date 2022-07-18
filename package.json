@@ -1,0 +1,25 @@
+{
+  "name": "nlw01-discovery",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielMoscardini/nlw-01-discovery.git"
+  },
+  "author": "Daniel Moscardini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielMoscardini/nlw-01-discovery/issues"
+  },
+  "homepage": "https://github.com/DanielMoscardini/nlw-01-discovery#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

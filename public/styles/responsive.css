@@ -26,6 +26,14 @@
     #page-search-results .cards img {
         height: 230px;
     }
+
+    .fieldgroup {
+        flex-direction: column;
+    }
+
+    .esquerda {
+        margin-left: 0;
+    }
 }
 
 @media screen and (min-width: 1700px) {
